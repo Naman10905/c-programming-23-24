@@ -7,7 +7,7 @@ int main(){
 	gets(s1);
     int l=strlen(s1);
 	for(int i=0;i<l;i++){
-		if(s1[i]==" "){
+		if(s1[i]==' '){
 			s1[i+1]=toupper(s1[i+1]);
 		}
 	}
